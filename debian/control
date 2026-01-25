@@ -1,0 +1,25 @@
+Source: python-typing-inspection
+Section: python
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ python3-setuptools,
+Standards-Version: 4.7.0
+Homepage: https://github.com/ilevkivskyi/typing_inspect
+Rules-Requires-Root: no
+
+Package: python3-typing-inspection
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+ python3-typing-extensions,
+Description: Runtime inspection utilities for Python typing module
+ This package provides runtime inspection utilities for Python's typing module.
+ It allows inspection of types at runtime and provides tools for working with
+ typing annotations.
+ .
+ This package provides the Python 3 library.
