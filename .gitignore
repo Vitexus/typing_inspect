@@ -9,3 +9,12 @@ tmp/
 *.swp
 *.pyc
 venv/
+debian/python3-typing-inspection.postinst.debhelper
+debian/python3-typing-inspection.substvars
+debian/python3-typing-inspection.prerm.debhelper
+debian/python3-typing-inspection/
+debian/.debhelper/
+.pybuild/
+typing_inspect.egg-info/
+debian/files
+debian/debhelper-build-stamp
